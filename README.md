@@ -77,3 +77,10 @@ bentoml serve rf_model:latest
 ]
 
 - it will give the response as [1]  # means choose the first category flower
+
+
+
+### For deployment purpose
+- make the bentofile.yaml file
+- in the cmd prompt use  "bentoml build"
+- this will add all the packages u have made and all the .py files and create a single entity
