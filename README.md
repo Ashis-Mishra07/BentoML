@@ -59,3 +59,21 @@ bentoml serve rf_model:latest
 - Create a service
 - Build a Bento
 - Deploy a Bento
+
+
+## What Learned
+- it also has versoning capability
+- can be seen via  -> bentoml models list
+
+
+
+## To run the bentoml file 
+- bentoml serve service.py:svc -- reload
+- the upper ( add the service_file_name : model_using  -- reload (just in case if any change to model occur it will again get reloaded ))
+
+- It will create swagger api created 
+- for example if added [
+  [1,2.3,4.2,1.0]
+]
+
+- it will give the response as [1]  # means choose the first category flower
